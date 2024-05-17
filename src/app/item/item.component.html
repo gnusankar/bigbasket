@@ -1,0 +1,36 @@
+<div class="items-body">
+ <div class="items">
+   <div class="mt-15">
+        Home/ Fruits & vegetables / Fresh vegetables / Cucumber & capsicum
+   </div>
+   <div class="product-container mt-15">
+    <div class="mt-15">
+        <div *ngFor="let img of data.subImg" class="mt-15">
+            <img  [src]="img.img" style="width: 100px; height: 100px; border: 1px solid;"/>
+        </div>
+    </div>
+    <div class="mt-15">
+        <img  [src]="data.img" style="width: auto; height: 500px; border: 1px solid;" class="mt-15"/>
+    </div>
+    <div class="mt-15">
+       <div>
+        <div>
+            <div>Fresho</div>
+        </div>
+        <div class="mt-15">
+            {{data.name}}
+        </div>
+        <div class="percentage mt-15">
+            {{data.percentage}}
+        </div>
+        <!-- {{data | json}} -->
+        <div class="mt-15">
+            <select>
+                <option>1 Kg</option>
+            </select>
+        </div>
+       </div>
+    </div>
+   </div>
+ </div>
+</div>

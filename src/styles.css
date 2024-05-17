@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.center-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-full {
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.b-r-5 {
+    border-radius: 5px;
+}
+.mt-15 {
+    margin-top: 15px;
+}

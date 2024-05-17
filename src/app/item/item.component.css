@@ -1,0 +1,17 @@
+.items-body {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.items {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 6fr;
+    gap: 10px;
+}
