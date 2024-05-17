@@ -11,4 +11,5 @@ export class CardComponent {
   @Input() originalPrice!: string;
   @Input() img!: string;
   @Input() percentage!: string;
+  @Input() index!: number;
 }
