@@ -60,6 +60,15 @@ export class BodyComponent {
     ]
     },
   ]
+  addImageSources = [
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_01.png?tr=w-3840,q=80"},
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_02.png?tr=w-3840,q=80"},
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_03.png?tr=w-3840,q=80"},
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_04.png?tr=w-3840,q=80"},
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_05.png?tr=w-3840,q=80"},
+    { add: "https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_06.png?tr=w-3840,q=80"}
+  ];
+  
 
   images: ImagesLinks[] = [
     {img: "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/3c5df782-1789-4bea-8403-9fd766652b34/t1_hp_aff_m_amex_110524.jpg?tr=w-3840,q=80"},
