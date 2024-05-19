@@ -21,3 +21,26 @@
 .mt-15 {
     margin-top: 15px;
 }
+
+.addButton {
+    padding: 2pxs;
+    border: 1px solid red;
+    width: 70%;
+    text-align: center;
+    color: red;
+}
+.addButton:hover {
+    background-color: brown;
+    color: white;
+}
+
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.offerLabel {
+    background-color: #008000;
+}
+.pr-15 {
+    padding-right: 15px;
+}
