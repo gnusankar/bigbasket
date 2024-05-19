@@ -5,10 +5,10 @@
     <div>
         <div>Fresho</div>
     </div>
-    <div class="mt-15">
+    <div class="mt-15 text-truncate">
         {{name}} - {{index}}
     </div>
-    <div class="percentage mt-15">
+    <div class="percentage mt-15 offerLabel">
         {{percentage}}
     </div>
     <div class="mt-15">
@@ -42,7 +42,7 @@
                     </g>
                 </svg></div>
         </div>
-        <div *ngIf="(index == 1 || index == 2 || index == 3)" class="b-r-5"
+        <div *ngIf="index !== 0" class="b-r-5"
             style="background: linear-gradient(to right, rgba(255, 228, 205, 0.1) 0%, rgba(255, 172, 102, 0.27) 50%, rgba(255, 172, 102, 0.27) 100%); display: flex;
             align-items: center; justify-content: center; border: 1px solid #ff000061">
             <span class="Label-sc-15v1nk5-0 gJxZPQ lg:text-sm xl:text-md font-semibold pr-5 py-0.5 ml-12"
@@ -50,10 +50,10 @@
         </div>
         <div class="d-flex mt-15">
             <div class="flag b-r-5 center-align" style="margin-right: 5px;">
-                <div><i class="fa-regular fa-bookmark" style="font-size: 15px;
+                <div><i class="fa-regular fa-bookmark mr-0" style="font-size: 15px;
                     margin-right: 5px;"></i></div>
             </div>
-            <div class="bottomBox b-r-5 center-align">
+            <div class="addButton b-r-5 center-align">
                 Add
             </div>
         </div>

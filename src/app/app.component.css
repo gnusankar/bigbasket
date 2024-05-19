@@ -1,12 +1,5 @@
-.headerComponent {
-    width: 80%;
-    margin: auto;
-    
-  
-}
 
 .headerRoot {
-    padding-bottom: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
 }
 
